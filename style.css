@@ -1,0 +1,284 @@
+:root {
+    --primary: #35a2e0;
+}
+
+/** Navbar **/
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar-nav .nav-item button {
+    border: none;
+    border-radius: 1.2em;
+    width: 110px;
+    height: 40px;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+/** Carousel **/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 43, .7);
+    z-index: 2;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #carouselExampleCaptions .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+/** About **/
+.about i {
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+.about h4 {
+    color: var(--primary);
+}
+
+.about h6 {
+    font-weight: 400;
+}
+
+/** Tahap **/
+.tahap {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+}
+
+.tahap .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.tahap .title hr {
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.tahap .title .second-title {
+    font-size: 0.5em;
+    font-weight: 200;
+}
+
+.tahap hr {
+    width: 200px;
+    color: black;
+
+}
+
+.nomor h1 .fas {
+    margin-right: 15px;
+}
+
+.imgTahap {
+    margin-top: -50px;
+}
+
+/** Testimonial **/
+.testi .title-1 {
+    text-align: center;
+}
+
+.testi .title-1 h3 hr {
+    opacity: 0.5;
+    color: rgb(219, 215, 215);
+}
+
+.card-subtitle {
+    font-size: small;
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+.penyaluran {
+    margin-top: -20px;
+    background: #FFFFFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: F;
+}
+
+.owl-theme {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.owl-theme .penyaluran-item {
+    padding: 30px;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.owl-theme .owl-nav .owl-prev,
+.owl-theme .owl-nav .owl-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.owl-theme .owl-nav .owl-prev:hover,
+.owl-theme .owl-nav .owl-next:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+
+
+/** Bergabung **/
+.bergabung {
+    background-color: var(--primary);
+}
+
+.content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.vid {
+    padding-left: 2.2em;
+}
+
+.vid .content-title {
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    border-radius: 1.2em;
+    font-size: large;
+    font-weight: 600;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.caption {
+    color: white;
+}
+
+/** FAQ **/
+.faq {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.faq-title {
+    text-align: center;
+    
+}
+
+.faq-title p {
+    color: #9b9898;
+}
+
+.accordion {
+    background-color: #fff;
+}
+
+.accordion-body {
+    padding: 20px;
+    text-align: justify;
+    color: #9b9898;
+}
+
+/** Footer **/
+.footer {
+    background-color: var(--primary);
+}
+
+.footer-title {
+    text-align: center;
+    color: #fff;
+}
+
+/** Tanya WA **/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    background-color: #2edd0b;
+}
+
+.back-to-top i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.btn {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-lg-square {
+    width: 250px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 1.2em;
+}
